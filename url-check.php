@@ -2,7 +2,6 @@
 
 $ch = curl_init();
 $url = readline("Введите  url = ");
-//$url = "http://proweb63.ru/help/php/respons-http-headers";
 $log = fopen('log.txt', "w+");
 
 
