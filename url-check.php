@@ -21,7 +21,7 @@ if ($head) {
     fputs($log ,$time['total_time']);
     echo "Проверка успешна. См. файл log.txt"."\r\n" ;
 } else {
-    //echo "Url не удовлетворяет условиям. См. файл log.txt"."\r\n";
+    echo "Url не удовлетворяет условиям. См. файл log.txt"."\r\n";
     fputs($log ,"Url не удовлетворяет условиям.");
 }
 fclose($log);
